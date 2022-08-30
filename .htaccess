@@ -1,5 +1,3 @@
-Options +FollowSymLinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} .
-RewriteCond %{HTTP_HOST} !^site\.com\.br
-RewriteRule (.*) http://opradomatheus/github.io/kingimc/index.php $1 [R=301,L]
+DirectoryIndex https://opradomatheus.github.io/kingimc/
+Redirecionamento 301 com htaccess
+Redirect 301 https://opradomatheus.github.io/kingimc/ https://opradomatheus.github.io/kingimc/index.php
