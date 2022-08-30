@@ -1,6 +1,6 @@
 <h1>King Imc</h1>
 
-Requisitos para executar o projeto:
+<h3>Requisitos para executar o projeto:</h3>
 
 - VSCode com a extensão PHP server instalada;
 - Xampp.
