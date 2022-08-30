@@ -1,11 +1,11 @@
-//King Imc
+<h1>King Imc</h1>
 
 Requisitos para executar o projeto:
 
 - VScode com a extensão PHP server instalada;
 - Xampp.
 
-Para executar o projeto basta abrir o arquivo index.php e utilizar a extensão PHP Sever clicando com o botão direito no código para executar 
+Fazer a criação do banco de dados e da tabela que será utilizada:
 
 Nome do banco de dados: kingimc
 
@@ -18,5 +18,8 @@ CREATE TABLE registros (
   imc VARCHAR(25) NULL,
   PRIMARY KEY(idregistros)
 );
+
+Para executar o projeto basta abrir o arquivo index.php e utilizar a extensão PHP Sever clicando com o botão direito no código para executar.
+
 
 
