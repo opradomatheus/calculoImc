@@ -20,4 +20,4 @@ CREATE TABLE registros (
 Para executar o projeto basta abrir o arquivo index.php dentro do VSCode e utilizar a extensão PHP Sever clicando com o botão direito no código para executar.
 
 
-
+<img src="src/img/index.png" alt="index">
