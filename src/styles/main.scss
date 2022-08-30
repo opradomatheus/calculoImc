@@ -1,0 +1,238 @@
+@import '_reset';
+@import '_variables';
+@import '_mixins';
+
+body{
+    background-color:#e0e0e0;
+
+    .container {
+        width: 350px;
+        height: 600px;
+        background-color: #fafafa;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    
+        .title{
+            padding: 25px 20px 0px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            color: $cor1;
+
+            h1{
+                font-size:28px;
+            }
+
+            h1+p{
+                font-size: 0.9em;
+            }
+
+            span{
+                font-weight: 400;
+            }
+        }
+
+        .container-calculadora {
+            display: flex;
+            flex-direction: column;
+
+
+            .calculadora {
+                padding: 20px;
+                display: flex;
+                justify-content: space-around;
+    
+                .input-container{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    gap: 10px;
+    
+                    label {
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: #161616;
+    
+                        span {
+                            font-size: 0.8em;
+                        }
+                    }
+    
+                    input {
+                        background-color: #e6e6e5;
+                        width: 80px;
+                        height: 35px;
+                        border-radius: 5px;
+                        -webkit-border-radius: 5px;
+                        -moz-border-radius: 5px;
+                        -ms-border-radius: 5px;
+                        -o-border-radius: 5px;
+                        border: none;
+    
+                        &:focus {
+                            outline: solid $cor1 1px;
+                        }
+                    }
+                }
+            }
+
+            .button {
+                padding: 5px 20px 20px 20px;
+                @include center;
+
+                input {
+                    width: 240px;
+                    height: 40px;
+                    background-color: $cor1;
+                    color: #FFF;
+                    border: none;
+                    border-radius: 20px;
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    -ms-border-radius: 20px;
+                    -o-border-radius: 20px;
+                    transition: 0.3s ease;
+                    -webkit-transition: 0.3s ease;
+                    -moz-transition: 0.3s ease;
+                    -ms-transition: 0.3s ease;
+                    -o-transition: 0.3s ease;
+                    &:hover {
+                        background-color: #5f23a0;
+                    }
+                }
+            }
+        }
+
+        .show-imc {
+            @include center;
+            height: 50px;
+            padding: 10px 20px 10px 20px;
+
+            .imc-content {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            p{
+                font-size: 20px;
+                text-align: center;
+                font-weight: 700;
+            }
+            
+
+            .bad {
+                color: red
+            }
+
+            .ok {
+                color: green;
+            }
+
+            .regular {
+                color: rgb(229, 255, 0);
+            }
+        }
+
+        .registros {
+            @include center;
+            padding: 20px;
+
+            table{
+                height: 100px;
+                max-height: 100px;
+                border-collapse: collapse;
+                text-align: center;
+                background-color: $cor2;
+                border-radius: 0px 0px 10px 10px;
+                -webkit-border-radius: 0px 0px 10px 10px;
+                -moz-border-radius: 0px 0px 10px 10px;
+                -ms-border-radius: 0px 0px 10px 10px;
+                -o-border-radius: 0px 0px 10px 10px;
+
+
+                caption {
+                    padding: 5px;
+                    background-color: $cor1;
+                    color: $cor2;
+                    font-weight: 500;
+                    border-radius: 10px 10px 0px 0px;
+                    -webkit-border-radius: 10px 10px 0px 0px;
+                    -moz-border-radius: 10px 10px 0px 0px;
+                    -ms-border-radius: 10px 10px 0px 0px;
+                    -o-border-radius: 10px 10px 0px 0px;
+                }
+
+                table, thead, tbody{
+                    display: block;
+                }
+
+                td, th{
+                    height: 25px;
+                    width: 80px;
+                }
+
+
+                tbody{
+                    overflow-y: scroll;
+                    height: 175px;
+
+                    &::-webkit-scrollbar{
+                        width: 5px;
+                    }
+
+                    &::-webkit-scrollbar-track {
+                        background-color: $cor2;
+                      }
+                      
+                      &::-webkit-scrollbar-thumb {
+                        background-color: $cor1;
+                        border-radius: 3px;
+                        -webkit-border-radius: 3px;
+                        -moz-border-radius: 3px;
+                        -ms-border-radius: 3px;
+                        -o-border-radius: 3px;
+}
+                }
+                
+
+                .bxs-trash {
+                    font-size: 18px;
+                    color: #000;
+                    cursor: pointer;
+                    transition: 0.3s ease;
+                    -webkit-transition: 0.3s ease;
+                    -moz-transition: 0.3s ease;
+                    -ms-transition: 0.3s ease;
+                    -o-transition: 0.3s ease;
+
+                    &:hover {
+                        color: #FF0000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:475px) {
+
+    body{
+        background-color: #fafafa;
+
+        
+    .container {
+        box-shadow: none;
+    }
+
+    }
+
+}
+
