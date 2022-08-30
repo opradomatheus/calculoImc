@@ -1,3 +1,5 @@
+https://opradomatheus.github.io/kingimc/
+
 //Valores do IMC
 
 MENOR QUE 18,5	MAGREZA	0
