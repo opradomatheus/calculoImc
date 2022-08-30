@@ -1,4 +1,4 @@
-Link do repositório no Github: https://github.com/opradomatheus/kingimc
+https://opradomatheus.github.io/kingimc/
 
 Requisitos para executar o projeto:
 
