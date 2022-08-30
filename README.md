@@ -2,14 +2,12 @@
 
 Requisitos para executar o projeto:
 
-- VScode com a extensão PHP server instalada;
+- VSCode com a extensão PHP server instalada;
 - Xampp.
 
-Fazer a criação do banco de dados e da tabela que será utilizada:
+<h3>Fazer a criação do banco de dados e da tabela que será utilizada:</h3>
 
-Nome do banco de dados: kingimc
-
-Script para a criação das tabelas
+Script para a criação das tabelas / Banco de dados: kingimc
 
 CREATE TABLE registros (
   idregistros INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -19,7 +17,7 @@ CREATE TABLE registros (
   PRIMARY KEY(idregistros)
 );
 
-Para executar o projeto basta abrir o arquivo index.php e utilizar a extensão PHP Sever clicando com o botão direito no código para executar.
+Para executar o projeto basta abrir o arquivo index.php dentro do VSCode e utilizar a extensão PHP Sever clicando com o botão direito no código para executar.
 
 
 
