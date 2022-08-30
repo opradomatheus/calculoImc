@@ -7,6 +7,6 @@
         $deletar->execute();
 
         if($deletar):
-            header("Location: index.php");
+            header("Location: index.html");
         endif;
 ?>
