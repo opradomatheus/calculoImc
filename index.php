@@ -38,6 +38,7 @@ $resultado->execute();
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
     <title>KingIMC</title>
   </head>
   <body>
@@ -46,17 +47,16 @@ $resultado->execute();
         <h1>King<span>IMC</span></h1>
         <p>Faça o cálculo do seu IMC</p>
       </div>
-
       <form method="post">
         <div class="container-calculadora">
           <div class="calculadora">
             <div class="input-container">
               <label for="altura">Altura: <span>(ex: 171cm)</span></label>
-              <input type="number" maxlength="3" name="altura" id="altura" required>
+              <input type="number" name="altura" id="altura" required>
             </div>
             <div class="input-container">
               <label for="altura">Peso <span>(ex: 58kg)</span></label>
-              <input type="number" maxlength="3" name="peso" id="peso" required>
+              <input type="number" name="peso" id="peso" required>
             </div>
           </div>
           <div class="button">
