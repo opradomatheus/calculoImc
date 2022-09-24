@@ -1,5 +1,7 @@
 <h1>King Imc</h1>
 
+<h2>Acesso via web: https://prado.kinghost.net/imc/index.php</h2>
+
 <h3>Requisitos para executar o projeto:</h3>
 
 - VSCode com a extensão PHP server instalada;
