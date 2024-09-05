@@ -38,15 +38,15 @@ $resultado->execute();
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>KingIMC</title>
+    <title>Cálculo IMC</title>
   </head>
   <body>
     <section class="container">
       <div class="title">
-        <h1>King<span>IMC</span></h1>
+        <h1>Cálculo <span>IMC</span></h1>
         <p>Faça o cálculo do seu IMC</p>
       </div>
-      <form method="post">
+      <form method="POST">
         <div class="container-calculadora">
           <div class="calculadora">
             <div class="input-container">
